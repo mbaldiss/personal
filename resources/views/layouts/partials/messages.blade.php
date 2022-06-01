@@ -1,3 +1,8 @@
+<?php 
+// agregado 
+use Illuminate\Support\Facades\Session; 
+?>
+
 @if(isset ($errors) && count($errors) > 0)
     <div class="alert alert-warning" role="alert">
         <ul class="list-unstyled mb-0">

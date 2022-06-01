@@ -5,7 +5,7 @@
         
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         
-        
+        <br />
         <h1 class="h3 mb-3 fw-normal">Login</h1>
 
         @include('layouts.partials.messages')
